@@ -11,7 +11,7 @@ namespace DiscordBot
 {
     class Config
     {
-        public static string PATH { get; private set; } = "config.json";
+        public static string PATH { get; private set; } = "../../config.json";
         public string Prefix { get; set; }
         public string Token { get; set; }
         public string CatUrl { get; set; }
